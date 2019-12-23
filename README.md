@@ -4,6 +4,13 @@
 - 新建文件夹
 - 进入文件夹，npm init -y
 - 修改package.json的script
+
+```js
+"scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+}
+```
 - 按照下面的样式新建基础目录
 
 ```js
